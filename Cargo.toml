@@ -1,0 +1,8 @@
+[package]
+name = "rererouter"
+version = "0.1.0"
+authors = ["Stepan Kuzmin <to.stepan.kuzmin@gmail.com>"]
+
+[dependencies]
+iron = "0.6.0"
+regex = "0.2.2"
