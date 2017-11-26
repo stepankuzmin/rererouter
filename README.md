@@ -1,6 +1,7 @@
 # rererouter
 
 [![Build Status](https://travis-ci.org/stepankuzmin/rererouter.svg?branch=master)](https://travis-ci.org/stepankuzmin/rererouter)
+[![Crates.io Status](http://meritbadge.herokuapp.com/rererouter)](https://crates.io/crates/rererouter)
 
 [Iron](https://github.com/iron/iron) router with [regex](https://github.com/rust-lang/regex) captures support.
 
