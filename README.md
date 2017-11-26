@@ -1,10 +1,27 @@
 # rererouter
 
-Simple [iron](https://github.com/iron/iron) router with [regex](https://github.com/rust-lang/regex) captures support.
+[![Build Status](https://travis-ci.org/stepankuzmin/rererouter.svg?branch=master)](https://travis-ci.org/stepankuzmin/rererouter)
 
-## Example
+[Iron](https://github.com/iron/iron) router with [regex](https://github.com/rust-lang/regex) captures support.
 
-```rs
+### Usage
+
+Add this to your `Cargo.toml`:
+
+```toml
+[dependencies]
+rererouter = "0.1"
+```
+
+and this to your crate root:
+
+```rust
+extern crate rererouter;
+```
+
+### Example
+
+```rust
 extern crate iron;
 extern crate regex;
 extern crate rererouter;
