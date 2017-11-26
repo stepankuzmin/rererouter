@@ -2,6 +2,8 @@
 name = "rererouter"
 version = "0.1.0"
 authors = ["Stepan Kuzmin <to.stepan.kuzmin@gmail.com>"]
+description = "Iron router with regex captures support."
+license = "MIT"
 
 [dependencies]
 iron = "0.6.0"
