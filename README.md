@@ -5,6 +5,9 @@
 
 [Iron](https://github.com/iron/iron) router with [regex](https://github.com/rust-lang/regex) captures support.
 
+## Documentation
+Documentation is [here](https://docs.rs/rererouter)
+
 ### Usage
 
 Add this to your `Cargo.toml`:

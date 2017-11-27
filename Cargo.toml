@@ -5,6 +5,7 @@ description = "Iron router with regex captures support."
 authors = ["Stepan Kuzmin <to.stepan.kuzmin@gmail.com>"]
 license = "MIT"
 license-file = "LICENSE"
+documentation = "https://docs.rs/rererouter"
 homepage = "https://github.com/stepankuzmin/rererouter"
 repository = "https://github.com/stepankuzmin/rererouter"
 readme = "README.md"
