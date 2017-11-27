@@ -1,9 +1,18 @@
 [package]
 name = "rererouter"
-version = "0.1.0"
-authors = ["Stepan Kuzmin <to.stepan.kuzmin@gmail.com>"]
+version = "0.1.1"
 description = "Iron router with regex captures support."
+authors = ["Stepan Kuzmin <to.stepan.kuzmin@gmail.com>"]
 license = "MIT"
+license-file = "LICENSE"
+homepage = "https://github.com/stepankuzmin/rererouter"
+repository = "https://github.com/stepankuzmin/rererouter"
+readme = "README.md"
+keywords = ["iron", "router", "regex", "captures"]
+categories = ["web-programming::http-server"]
+
+[badges]
+travis-ci = { repository = "stepankuzmin/rererouter" }
 
 [dependencies]
 iron = "0.6.0"
