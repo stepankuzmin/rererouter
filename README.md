@@ -79,12 +79,12 @@ Let's count to 10!
 ```
 
 ```shell
-$ curl -i -X POST http://localhost:3000/not-found
+$ curl -i http://localhost:3000/not-found
 
 HTTP/1.1 404 Not Found
 Content-Length: 9
 Content-Type: text/plain
-Date: Mon, 27 Nov 2017 08:38:21 GMT
+Date: Mon, 27 Nov 2017 08:42:30 GMT
 
 Not found
 ```
