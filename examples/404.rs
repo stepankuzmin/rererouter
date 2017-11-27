@@ -15,9 +15,8 @@ fn main() {
         Ok(Response::with((status::Ok, greeting)))
     });
 
-    router_builder.get(r"/count-to-(?P<count>\d*)", |_: &mut Request, captures: Captures| {
-        let count = format!("Let's count to {}!", &captures["count"]);
-        Ok(Response::with((status::Ok, count)))
+    router_builder.not_found(|_: &mut Request| {
+        Ok(Response::with((status::NotFound, "Not found")))
     });
 
     let router = router_builder.finalize();

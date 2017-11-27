@@ -71,6 +71,11 @@ impl RouterBuilder {
         self.route(Method::Delete, pattern, handler)
     }
 
+    pub fn not_found(&mut self, handler: NotFoundHandler) -> &mut RouterBuilder {
+        self.not_found = Some(handler);
+        self
+    }
+
     pub fn finalize(self) -> Router {
         Router {
             routes: self.routes,
